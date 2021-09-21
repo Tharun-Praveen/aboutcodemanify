@@ -1,0 +1,229 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #091921;
+  background-size: 100vh;
+  size: cover;
+  color: #39FF14;
+  font-family: Fortnite;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}  
+.topnav a {
+  float: left;
+  color: #39ff14;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} 
+.topnav a:hover {
+  background-color: #39ff14;
+  color: #333;
+}
+.title-bar {
+  text-align: center;
+  font-size: 39px;
+  background-color: #39FF14;
+  color: #091921;
+}
+title {
+  background-color: #39FF14;
+}
+.label {
+  background-color: #111;
+  display: flex;
+  height: 26px;
+  width: 50px;
+}
+.intro {
+  font-size: 24px;
+  padding-top: 3px ;
+  padding-left: 16px;
+}
+.intro2 {
+  color: red;
+  font-size: 22px;
+  padding-left: 16px;
+}
+.starter {
+  font-size:29px;
+  padding-top: 5px;
+  height: 28px;
+  padding-left: 16px;
+}
+.intro3 {
+  padding-left: 16px;
+  height: 40px;
+}
+@font-face {
+  font-family: Fortnite;
+  src: url(BurbankBigCondensed-Black.otf);
+}
+.channel-text {
+  padding-left: 16px;
+}
+.mobileclock {
+  display: none;
+}
+@media only screen and (max-width: 1462px) {
+  .starter {
+    font-size: 19px;
+  }
+  .intro {
+      font-size: 18px;
+  }
+  .intro2 {
+      font-size: 17px;
+  }
+.topnav {
+  height: 35px; width: 100%;
+}
+
+.icon-bar {
+  display: none;
+}
+
+.ender {
+  visiblity: hidden;
+}
+
+}
+@media only screen and (max-width:1000px) {
+  .title-bar {
+      border-radius: 50px;
+      padding-left: 16px; padding-right: 16px;
+  }
+
+  body {
+     background:#091921;
+  }
+  .topnav {
+      font-size: 13px;
+      
+  }
+
+
+}
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #39FF14;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 14px 288px;
+  transition: all 0.3s ease;
+  color: #091921;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #091921;
+  color: #39FF14;
+  border-radius: 10px;
+}
+
+.howtouploadyourwebpagefrommobileforfree {
+  height: 80px;
+  text-align: center;
+}
+
+.iframe {
+  width: 500px;
+}
+
+
+.image {
+  align-items: center;
+  background-color: #39FF14;
+}
+
+@media only screen and (max-width:1919px) {
+
+
+  body {margin:0;}
+
+  .icon-bar {
+    width: 100%;
+    background-color: #39FF14;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 19.9%;
+    text-align: center;
+    padding: 0px 220px;
+    transition: all 0.01s ease;
+    color: #091921;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #091921;
+    color: #39FF14;
+    border-radius: 25px;
+  }
+  
+}
+
+
+
+.intro {
+  padding-top: 35px;
+  color: red;
+}
+
+
+.paragraph1 {
+  padding-top: 35px;
+  color: red;
+  padding-left: 12px;
+}
+
+.paragraph2 {
+  padding-top: 35px;
+  color: red;
+  padding-left: 12px;
+}
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #39FF14;
+  color: #091921;
+  text-align: center;
+  font-family: juice itc;
+  height: 46px;
+  font-size: 26px;
+  border-radius: 50px;
+}
+
+
+.seperator {
+  height: 90px;
+}
+
+
+.githubandnetlify {
+  font-size: 30px;
+  padding-top: 100px;
+}
